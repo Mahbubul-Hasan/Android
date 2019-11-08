@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Login Basic</string>
+    <string name="error_message">This field can not null</string>
+</resources>

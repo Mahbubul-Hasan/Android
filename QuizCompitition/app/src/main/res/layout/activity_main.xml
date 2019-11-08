@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/userNameET"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="User Name"
+        android:textSize="20sp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Password"
+        android:textSize="20sp"
+        android:inputType="textPassword"/>
+
+
+    <RadioGroup
+        android:id="@+id/radiogroupid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In As Student"
+            android:id="@+id/studentid"/>
+        <RadioButton
+            android:id="@+id/adminid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in As a Admin"
+            android:textStyle="bold"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/signInBT"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Sign In"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/signUpBT"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Sign Up"
+        android:textSize="17sp"/>
+
+
+
+
+
+</LinearLayout>

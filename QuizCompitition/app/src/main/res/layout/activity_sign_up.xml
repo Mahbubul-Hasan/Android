@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:id="@+id/userNameET"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="User Name"
+        android:textSize="20sp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/fullNameET"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Full Name"
+        android:textSize="20sp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Email"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Password"
+        android:textSize="20sp"
+        android:inputType="textPassword"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/signUpBT"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:text="Sign In"
+            android:textSize="17sp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/cancelBT"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:text="Cancel"
+            android:textSize="17sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

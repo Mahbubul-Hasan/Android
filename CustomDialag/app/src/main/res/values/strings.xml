@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Custom Dialag</string>
+    <string-array name="cause">
+        <item>You have also an account?</item>
+        <item>You are not interest?</item>
+        <item>You do not find any useful?</item>
+        <item>Others?</item>
+    </string-array>
+</resources>
